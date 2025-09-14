@@ -504,7 +504,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1839836741355901053, guid: 81a48cf9015cee6478f3767bafa6c76e, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 2589329469092483083, guid: 81a48cf9015cee6478f3767bafa6c76e, type: 3}
       propertyPath: m_Mesh
@@ -1009,7 +1013,11 @@ GameObject:
   - component: {fileID: 396504675}
   - component: {fileID: 396504674}
   - component: {fileID: 396504673}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2733,7 +2741,11 @@ GameObject:
   - component: {fileID: 514106829}
   - component: {fileID: 514106828}
   - component: {fileID: 514106827}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3855,10 +3867,24 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1884016804}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 969526837501940401, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_VersionIndex
+      value: 5846
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 1156228093483954387, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2131624436}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 1156228093483954387, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2026
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 1392852375303006343, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3867,6 +3893,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hole
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 1954784204994162180, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2376550585799292620, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 3019582967697354239, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3879,6 +3916,13 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 185959991}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 4822520427325146640, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 4868851307892421901, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.5
@@ -3927,6 +3971,17 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 185959991}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 7358792801430409861, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2947
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853500449466765648, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3945,10 +4000,84 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 301225721242671861, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 376926326103600119, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 897353321827358485, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1050731585059632954, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1974507758342648075, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 2160514246619827613, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 2996035630965703682, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3183159235199087752, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3462044106563356555, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3829218846282776150, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318230196188245973, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4594601702003210667, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4752044271199362672, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910647041395343201, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5140759674141540316, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5462170093496716575, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059835299007883745, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6717076028371637572, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 6717076028371637572, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -3997,6 +4126,33 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 7814934697597910216, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7873801295694852204, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226456402259226183, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8338184945763924593, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925891756434651883, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8986467452204451510, guid: 515c8f82d507f0843ad255b99731bc22, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4403,7 +4559,11 @@ GameObject:
   - component: {fileID: 1315202400}
   - component: {fileID: 1315202399}
   - component: {fileID: 1315202398}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Blue Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4768,7 +4928,11 @@ GameObject:
   - component: {fileID: 1440985349}
   - component: {fileID: 1440985348}
   - component: {fileID: 1440985347}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5344,7 +5508,11 @@ GameObject:
   - component: {fileID: 1467161319}
   - component: {fileID: 1467161318}
   - component: {fileID: 1467161317}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6932,10 +7100,28 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 1859263049210160866, guid: f818a46fba8e70b4099a98bd382405b9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     - target: {fileID: 3578928259742507719, guid: f818a46fba8e70b4099a98bd382405b9, type: 3}
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+    - target: {fileID: 6181023703752106282, guid: f818a46fba8e70b4099a98bd382405b9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9184794041870847097, guid: f818a46fba8e70b4099a98bd382405b9, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+>>>>>>> Stashed changes
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7517,7 +7703,11 @@ GameObject:
   - component: {fileID: 2052127333}
   - component: {fileID: 2052127332}
   - component: {fileID: 2052127331}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Orange Portal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8097,7 +8287,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1326563524194964589, guid: 8544970b8ec6f2244b447f60fbb7aa56, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1326563524194964589, guid: 8544970b8ec6f2244b447f60fbb7aa56, type: 3}
       propertyPath: m_IsActive

@@ -173,7 +173,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1326563524194964589, guid: 8544970b8ec6f2244b447f60fbb7aa56, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 2965498736189372094, guid: 8544970b8ec6f2244b447f60fbb7aa56, type: 3}
       propertyPath: m_Mesh
@@ -14834,7 +14838,11 @@ GameObject:
   - component: {fileID: 149836723}
   - component: {fileID: 149836722}
   - component: {fileID: 149836721}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -35295,7 +35303,11 @@ GameObject:
   - component: {fileID: 805572483}
   - component: {fileID: 805572482}
   - component: {fileID: 805572481}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45600,7 +45612,11 @@ GameObject:
   - component: {fileID: 901380112}
   - component: {fileID: 901380111}
   - component: {fileID: 901380110}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Text 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45700,7 +45716,11 @@ GameObject:
   - component: {fileID: 968921869}
   - component: {fileID: 968921868}
   - component: {fileID: 968921867}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Text 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -70340,7 +70360,11 @@ GameObject:
   - component: {fileID: 1339431354}
   - component: {fileID: 1339431353}
   - component: {fileID: 1339431352}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cube 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -109900,7 +109924,11 @@ GameObject:
   - component: {fileID: 1857944084}
   - component: {fileID: 1857944083}
   - component: {fileID: 1857944082}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Text 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -134433,11 +134461,18 @@ SceneRoots:
   m_Roots:
   - {fileID: 2097508937}
   - {fileID: 376786416}
+<<<<<<< Updated upstream
+=======
+  - {fileID: 371144379}
+>>>>>>> Stashed changes
   - {fileID: 2941987}
   - {fileID: 149836726}
   - {fileID: 1339431357}
   - {fileID: 805572486}
+<<<<<<< Updated upstream
   - {fileID: 371144379}
+=======
+>>>>>>> Stashed changes
   - {fileID: 968921869}
   - {fileID: 901380112}
   - {fileID: 1857944084}

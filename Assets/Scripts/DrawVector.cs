@@ -58,7 +58,11 @@ public class DrawVector : MonoBehaviour
 
         RaycastHit hit;
 
+<<<<<<< Updated upstream
         if (Physics.Raycast(worldMousePosNear, worldMousePosFar - worldMousePosNear, out hit, 1000))
+=======
+        if (Physics.Raycast(worldMousePosNear, worldMousePosFar - worldMousePosNear, out hit, 1000, 1 << 3))
+>>>>>>> Stashed changes
         {
             Vector3 intersection = hit.point;
             intersection.y = transform.position.y;

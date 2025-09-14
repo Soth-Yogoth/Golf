@@ -133,7 +133,11 @@ GameObject:
   - component: {fileID: 90864913}
   - component: {fileID: 90864912}
   - component: {fileID: 90864911}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Right door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -706,7 +710,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 142759681}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Constructions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1166,7 +1174,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7853500449466765648, guid: 70ab7ab3a6a8f5641b6d00ac716a28b4, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1372,7 +1384,11 @@ GameObject:
   - component: {fileID: 709166558}
   - component: {fileID: 709166557}
   - component: {fileID: 709166556}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Route
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2873,7 +2889,11 @@ GameObject:
   - component: {fileID: 908150906}
   - component: {fileID: 908150905}
   - component: {fileID: 908150904}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Border
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5807,7 +5827,11 @@ GameObject:
   - component: {fileID: 965934581}
   - component: {fileID: 965934580}
   - component: {fileID: 965934579}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Gate
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7349,7 +7373,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1839836741355901053, guid: 81a48cf9015cee6478f3767bafa6c76e, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 2589329469092483083, guid: 81a48cf9015cee6478f3767bafa6c76e, type: 3}
       propertyPath: m_Mesh
@@ -7788,7 +7816,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1326563524194964589, guid: 8544970b8ec6f2244b447f60fbb7aa56, type: 3}
       propertyPath: m_Layer
+<<<<<<< Updated upstream
       value: 2
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 2965498736189372094, guid: 8544970b8ec6f2244b447f60fbb7aa56, type: 3}
       propertyPath: m_Mesh
@@ -7833,7 +7865,11 @@ GameObject:
   - component: {fileID: 1590970845}
   - component: {fileID: 1590970844}
   - component: {fileID: 1590970843}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Left door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

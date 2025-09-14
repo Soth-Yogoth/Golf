@@ -9,7 +9,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4868851307892421901}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Hole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -48,7 +52,11 @@ GameObject:
   - component: {fileID: 4213611100750842460}
   - component: {fileID: 577533396358403544}
   - component: {fileID: 1392852375303006343}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Pipe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1663,7 +1671,11 @@ GameObject:
   - component: {fileID: 4304086724238980325}
   - component: {fileID: 4795786088270706652}
   - component: {fileID: 6735633404336097814}
+<<<<<<< Updated upstream
   m_Layer: 2
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2846,7 +2858,11 @@ GameObject:
   - component: {fileID: 8508145410537116850}
   - component: {fileID: 8202045906889200906}
   - component: {fileID: 3019582967697354239}
+<<<<<<< Updated upstream
   m_Layer: 1
+=======
+  m_Layer: 0
+>>>>>>> Stashed changes
   m_Name: Flag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
