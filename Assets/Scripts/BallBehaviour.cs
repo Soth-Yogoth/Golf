@@ -26,11 +26,6 @@ public class BallBehaviour : MonoBehaviour
             body.AddForce(force);
 
             sound.Play();
-        }   
-        else if (Math.Pow(body.linearVelocity.x, 2) + Math.Pow(body.linearVelocity.z, 2) < 0.1f) 
-        {
-            body.linearVelocity = new Vector3(0, body.linearVelocity.y, 0);
-            body.angularVelocity = Vector3.zero;
         }
 
         plane.transform.position = body.position;

@@ -12,11 +12,7 @@ GameObject:
   - component: {fileID: 6052933010684257172}
   - component: {fileID: 1232927711714911709}
   - component: {fileID: 7269462200528589008}
-<<<<<<< Updated upstream
-  m_Layer: 0
-=======
   m_Layer: 3
->>>>>>> Stashed changes
   m_Name: 'Plane '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 5, y: 6, z: 5}
-  m_LocalScale: {x: 12, y: 0, z: 12}
+  m_LocalScale: {x: 100, y: 0, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 660107244864089796}
@@ -162,11 +158,7 @@ GameObject:
   - component: {fileID: 5025657944580209023}
   - component: {fileID: 4060880887533216437}
   - component: {fileID: 7553596953013649740}
-<<<<<<< Updated upstream
-  m_Layer: 2
-=======
   m_Layer: 0
->>>>>>> Stashed changes
   m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,6 +245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d30041770d9175458a9af46361e91a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 1421389044639566224, guid: 675500b6f8e147d42bb541340167198b, type: 3}
 --- !u!114 &736039863497366692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -297,8 +290,8 @@ Rigidbody:
   m_GameObject: {fileID: 6181023703752106282}
   serializedVersion: 5
   m_Mass: 0.25
-  m_LinearDamping: 0.4
-  m_AngularDamping: 0.05
+  m_LinearDamping: 1
+  m_AngularDamping: 0.5
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -432,11 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6236890047034722976}
   - component: {fileID: 4944565779036358990}
-<<<<<<< Updated upstream
-  m_Layer: 2
-=======
   m_Layer: 0
->>>>>>> Stashed changes
   m_Name: Strike sound
   m_TagString: Untagged
   m_Icon: {fileID: 0}
