@@ -5,7 +5,6 @@ using System;
 
 public class CameraBehaviour : MonoBehaviour
 {
-
     public Transform target;
 
     private Vector3 mousePos;
@@ -71,7 +70,7 @@ public class CameraBehaviour : MonoBehaviour
 
     private void Zoom(float scrollDelta)
     {
-        if ((distance > 5 && scrollDelta < 0) || (scrollDelta > 0 && distance < 20))
+        if ((distance > 5 && scrollDelta < 0) || (scrollDelta > 0 && distance < 15))
         {
             distance += scrollDelta;
         }

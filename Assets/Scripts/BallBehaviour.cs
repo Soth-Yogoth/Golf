@@ -19,7 +19,7 @@ public class BallBehaviour : MonoBehaviour
 
     void Update()
     {
-        if ((Math.Pow(body.linearVelocity.x, 2) + Math.Pow(body.linearVelocity.z, 2) == 0f) && Input.GetMouseButtonDown(0))
+        if (lineRenderer.enabled && Input.GetMouseButtonDown(0))
         {
             Vector3 line = lineRenderer.GetPosition(1) - transform.position;
             Vector3 force = -line.normalized * (float)(5 * Math.Pow(line.magnitude, 3) + 10);

@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class DrawVector : MonoBehaviour
 {
     private LineRenderer lineRenderer;
     private Rigidbody body;
+
+    [SerializeField] Camera camera;
 
     void Start()
     {
@@ -15,20 +18,20 @@ public class DrawVector : MonoBehaviour
 
     void Update()
     {
-        if (body.linearVelocity.magnitude < 0.01f && Time.timeScale != 0) 
+        if ((Time.timeScale != 0) && (body.linearVelocity.magnitude == 0))
         {
-            Vector3 intersectionPoint = Raycast();
-            Draw(intersectionPoint);
+            Ray ray = camera.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+
+            lineRenderer.enabled = Physics.Raycast(ray, out hit, 1000, 1 << 3);
+
+            if (lineRenderer.enabled) Draw(hit.point);
         }
-        else
-        {
-            Draw(transform.position);
-        }
+        else lineRenderer.enabled = false;
     }
 
     private void Draw(Vector3 worldPoint)
     {
-
         Vector3 direction = worldPoint - transform.position;
 
         if (direction.magnitude > 5)
@@ -39,36 +42,5 @@ public class DrawVector : MonoBehaviour
 
         lineRenderer.SetPosition(0, transform.position);
         lineRenderer.SetPosition(1, transform.position + direction);
-    }
-
-    private Vector3 Raycast()
-    {
-        Vector3 screenMousePosNear = new Vector3(
-            Input.mousePosition.x,
-            Input.mousePosition.y,
-            Camera.main.nearClipPlane);
-
-        Vector3 screenMousePosFar = new Vector3(
-            Input.mousePosition.x,
-            Input.mousePosition.y,
-            Camera.main.farClipPlane);
-
-        Vector3 worldMousePosNear = Camera.main.ScreenToWorldPoint(screenMousePosNear);
-        Vector3 worldMousePosFar = Camera.main.ScreenToWorldPoint(screenMousePosFar);
-
-        RaycastHit hit;
-
-<<<<<<< Updated upstream
-        if (Physics.Raycast(worldMousePosNear, worldMousePosFar - worldMousePosNear, out hit, 1000))
-=======
-        if (Physics.Raycast(worldMousePosNear, worldMousePosFar - worldMousePosNear, out hit, 1000, 1 << 3))
->>>>>>> Stashed changes
-        {
-            Vector3 intersection = hit.point;
-            intersection.y = transform.position.y;
-
-            return intersection;
-        }
-        else return transform.position;
     }
 }
